@@ -1,6 +1,5 @@
 Feature: Account sign up
 
-  @test
   Scenario: User can sign up for crowdstreet account
     Given user goes to portfolio account sign up page
     And enters personal information
