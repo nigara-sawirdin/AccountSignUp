@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8918287048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User can sign up for crowdstreet account",
+        "description": "",
+        "id": "account-sign-up;user-can-sign-up-for-crowdstreet-account",
+        "after": [
+          {
+            "result": {
+              "duration": 217471015,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3316792660,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to portfolio account sign up page",
+            "match": {
+              "location": "AccountSignUpSteps.user_goes_to_portfolio_account_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 708502440,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters personal information",
+            "match": {
+              "location": "AccountSignUpSteps.enters_personal_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251286600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "secret password",
+            "match": {
+              "location": "AccountSignUpSteps.secret_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163609289,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "accepts terms and condition",
+            "match": {
+              "location": "AccountSignUpSteps.accepts_terms_and_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219695006,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validates the captcha",
+            "match": {
+              "location": "AccountSignUpSteps.validates_the_captcha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77939400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks the Create an account button",
+            "match": {
+              "location": "AccountSignUpSteps.user_clicks_the_Create_an_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9634340654,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user can see the crowdstree user home page",
+            "match": {
+              "location": "AccountSignUpSteps.user_can_see_the_crowdstree_user_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Account sign up",
+    "description": "",
+    "id": "account-sign-up",
+    "keyword": "Feature",
+    "uri": "accountsignup.feature"
+  }
+]
